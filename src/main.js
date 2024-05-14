@@ -1,13 +1,9 @@
-// Jim Whitehead
-// Created: 4/14/2024
+// Jason Rangel-Martinez
+// Created: 5/8/2024
 // Phaser: 3.70.0
-//
-// Cubey
-//
-// An example of putting sprites on the screen using Phaser
 // 
-// Art assets from Kenny Assets "Shape Characters" set:
-// https://kenney.nl/assets/shape-characters
+// Art assets from Kenny Assets "Tiny Battle" set:
+// https://kenney.nl/assets/tiny-battle
 
 // debug with extreme prejudice
 "use strict"
@@ -26,6 +22,6 @@ let config = {
 }
 
 // Global variable to hold sprites
-var my = {sprite: {}};
+var my = {sprite: {}, text: {}};
 
 const game = new Phaser.Game(config);
